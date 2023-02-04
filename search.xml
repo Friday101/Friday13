@@ -12,7 +12,7 @@
 <p>解决思路：用擦除编码（erasure coding）的方式应对资源的不可靠性，增加缓存内容的可用性。<br>解决方法：离散优化问题（NP难）</p>
 <!-- **可用**：真实世界数据模拟 -->
 
-<h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><ol>
+<h2 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h2><ol>
 <li>擦除编码（erasure coding）<br>擦除编码在存储系统中得到了广泛的应用，以达到更高的存储效率和可靠性。最大距离可分离码(Maximum distance separation code, MDS)，如里德所罗门码(Reed-solomon code, RS)[18]，是存储容量效率最高的一种编码，广泛应用于[14]、[15]、[19]、[20]等存储系统。Fountain码，如LT码和Raptor码[21]、[22]，也是一种具有无限码率和高效编解码算法的擦除码。在本文中，我们使用擦除码缓存流行文件。具体地说，我们将每个文件编码为几个包。</li>
 </ol>
 <h1 id="Enabling-QoE-Support-for-Interactive-Applications-over-Mobile-Edge-with-High-User-Mobility"><a href="#Enabling-QoE-Support-for-Interactive-Applications-over-Mobile-Edge-with-High-User-Mobility" class="headerlink" title="Enabling QoE Support for Interactive Applications over Mobile Edge with High User Mobility"></a><u>Enabling QoE Support for Interactive Applications over Mobile Edge with High User Mobility</u></h1><p>标签：OCO，移动性，云渲染</p>
@@ -29,90 +29,64 @@
 </ol>
 <p><strong>流游戏原型</strong><br>Pygame开发的平面游戏</p>
 <p><strong>真实数据</strong><br>旧金山出租车移动数据集：M. Piorkowski, N. Sarafijanovoc-Djukic, and M. Grossglauser, “A Parsimonious Model of Mobile Partitioned Networks with Clustering,” in The First International Conference on COMmunication Systems and NETworkS (COMSNETS), January 2009. [Online]. Available: <a href="http://www.comsnets.org/">http://www.comsnets.org</a></p>
-<h3 id="知识点-1"><a href="#知识点-1" class="headerlink" title="知识点"></a>知识点</h3><ol>
+<h2 id="知识点-1"><a href="#知识点-1" class="headerlink" title="知识点"></a>知识点</h2><ol>
 <li>根据QoE研究[9]- [12]，QoE的改善往往与数据吞吐率不是线性相关，从而使问题更加复杂。</li>
 <li>采用一般递增凹函数对QoE改善进行建模</li>
 <li>用户更强调流畅性（帧率）而不是视觉质量（比特率）</li>
 </ol>
-<h1 id="Lumos-towards-Better-Video-Streaming-QoE-through-Accurate-Throughput-Prediction"><a href="#Lumos-towards-Better-Video-Streaming-QoE-through-Accurate-Throughput-Prediction" class="headerlink" title="Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction"></a><font color='green'><u>Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction</u></font></h1><p>标签：吞吐量预测</p>
+<h1 id="Lumos-towards-Better-Video-Streaming-QoE-through-Accurate-Throughput-Prediction"><a href="#Lumos-towards-Better-Video-Streaming-QoE-through-Accurate-Throughput-Prediction" class="headerlink" title="Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction"></a><font color='green'><u>Lumos: towards Better Video Streaming QoE through Accurate Throughput Prediction</u></font></h1><p>标签：吞吐量预测，ABR，要看</p>
 <p>解决思路：发现由于忽略了应用程序行为对应用程序吞吐量的影响，例如块大小与吞吐量之间的强相关性，以往的大部分工作都无法实现准确的预测</p>
 <p>挑战：</p>
 <p>创新点：</p>
-<h3 id="知识点-2"><a href="#知识点-2" class="headerlink" title="知识点"></a>知识点</h3><ol>
+<ol>
+<li>聚合了视频数据集，建立了控制模块，提供了测试思路</li>
+</ol>
+<h2 id="知识点-2"><a href="#知识点-2" class="headerlink" title="知识点"></a>知识点</h2><ol>
 <li>大多数ABR算法使用吞吐量预测来估计网络容量[3]-[10]。作为一种替代方法，最近的工作[11]提倡预测内容块的交付时间以获得更好的QoE。</li>
 <li>应用程序感知的吞吐量受网络条件和应用程序自身行为的影响。而传统的视频流吞吐量预测器，无论是基于历史的[3]、[10]、[15]还是基于学习的[5]，都只将吞吐量波动视为网络条件的变化。</li>
 <li>吞吐量和块的交付时间，预测哪一个对ABR更有用。吞吐量对应于比特率选择，而交付时间直接用于计算QoE<br>本文论述是吞吐量。</li>
 <li>由于视频流的行为，网络的可用带宽与应用的块吞吐量不等价。</li>
 <li>区块大小与吞吐量之间存在很强的相关性，而以往的大部分工作都忽略了这一点，导致预测吞吐量不准确。事实上，这种相关性深受客户端播放器状态、chunk指数和移动客户端平台信号强度的影响，为了更准确地预测吞吐量，应该考虑所有这些因素。</li>
 </ol>
+<h1 id="On-Uploading-Behavior-and-Optimizations-of-a-Mobile-Live-Streaming-Service"><a href="#On-Uploading-Behavior-and-Optimizations-of-a-Mobile-Live-Streaming-Service" class="headerlink" title="On Uploading Behavior and Optimizations of a Mobile Live Streaming Service"></a><u>On Uploading Behavior and Optimizations of a Mobile Live Streaming Service</u></h1><p>标签：上传，直播数据集标签</p>
+<p>问题（动机）：大多数努力都集中在最后一英里(从服务器到观众)，而不是第一英里(从广播器到服务器)。由于MLS转播者通常是业余爱好者，与其他流媒体系统相比，这意味着最后一英里和第一英里通常都不可靠(例如3G&#x2F;4G)，从而对整体体验质量(QoE)[25]产生潜在影响</p>
+<p>解决思路：</p>
+<p>挑战：</p>
+<p>创新点：<br>自适应上传和边缘服务器预取</p>
+<h2 id="知识点-3"><a href="#知识点-3" class="headerlink" title="知识点"></a>知识点</h2><ol>
+<li>我们的主要发现包括大量浪费的上传、强烈的观看局部性和忠实观众的流量主导。具体来说，有33.3%的上传没有被观看，而且广播公司的观众倾向于局限在一小部分广播公司特定的网络区域。</li>
+<li>大量浪费的实时视频上传(占总上游流量的33.3%)。等待第一个观众的到来和在流媒体期间观众的离开是两个主要的贡献者;这两种浪费占上游总流量的30%。</li>
+<li>一个广播者所吸引的观看者往往来自少量网络区域。不同广播者的受众区域各不相同。向其他区域观看者提供内容时，启动时延会翻倍。</li>
+<li>经常观看同一家电视台的“忠实”观众数量很少，但产生了总下载视频数据的59%。这些忠实的观众不仅来得早，走得也晚。</li>
+</ol>
 <p><u></u><br>标签：</p>
 <p>解决思路：</p>
 <p>挑战：</p>
 <p>创新点</p>
-<h3 id="知识点-3"><a href="#知识点-3" class="headerlink" title="知识点"></a>知识点</h3><p><u></u><br>标签：</p>
+<h2 id="知识点-4"><a href="#知识点-4" class="headerlink" title="知识点"></a>知识点</h2><p><u></u><br>标签：</p>
 <p>解决思路：</p>
 <p>挑战：</p>
 <p>创新点</p>
-<h3 id="知识点-4"><a href="#知识点-4" class="headerlink" title="知识点"></a>知识点</h3><p><u></u><br>标签：</p>
+<h2 id="知识点-5"><a href="#知识点-5" class="headerlink" title="知识点"></a>知识点</h2><p><u></u><br>标签：</p>
 <p>解决思路：</p>
 <p>挑战：</p>
 <p>创新点</p>
-<h3 id="知识点-5"><a href="#知识点-5" class="headerlink" title="知识点"></a>知识点</h3><p><u></u><br>标签：</p>
+<h2 id="知识点-6"><a href="#知识点-6" class="headerlink" title="知识点"></a>知识点</h2><p><font color='green'></font><br><u></u><br>标签：</p>
 <p>解决思路：</p>
 <p>挑战：</p>
 <p>创新点</p>
-<h3 id="知识点-6"><a href="#知识点-6" class="headerlink" title="知识点"></a>知识点</h3><p><u></u><br>标签：</p>
+<h2 id="知识点-7"><a href="#知识点-7" class="headerlink" title="知识点"></a>知识点</h2><p><u></u><br>标签：</p>
 <p>解决思路：</p>
 <p>挑战：</p>
 <p>创新点</p>
-<h3 id="知识点-7"><a href="#知识点-7" class="headerlink" title="知识点"></a>知识点</h3><p><u></u><br>标签：</p>
-<p>解决思路：</p>
-<p>挑战：</p>
-<p>创新点</p>
-<h3 id="知识点-8"><a href="#知识点-8" class="headerlink" title="知识点"></a>知识点</h3>]]></content>
+<h2 id="知识点-8"><a href="#知识点-8" class="headerlink" title="知识点"></a>知识点</h2>]]></content>
       <categories>
         <category>Paper</category>
+        <category>Conference</category>
       </categories>
       <tags>
-        <tag>INFOCOM_2022</tag>
+        <tag>论文集</tag>
+        <tag>泛读</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Fund</title>
-    <url>/Friday13/2023/02/02/fund/</url>
-    <content><![CDATA[<h1 id="Before"><a href="#Before" class="headerlink" title="Before"></a>Before</h1><p>123123123</p>
-]]></content>
-      <categories>
-        <category>总结</category>
-        <category>2023年</category>
-        <category>2月</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>项目</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Test</title>
-    <url>/Friday13/2023/02/02/test/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/Friday13/2023/02/02/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
   </entry>
 </search>

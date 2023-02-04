@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2022INFOCOM</title>
+    <url>/Friday13/2023/02/04/2022infocom/</url>
+    <content><![CDATA[<h1 id="Distributed-Cooperative-Caching-in-Unreliable-Edge-Environments"><a href="#Distributed-Cooperative-Caching-in-Unreliable-Edge-Environments" class="headerlink" title="Distributed Cooperative Caching in Unreliable Edge Environments"></a>Distributed Cooperative Caching in Unreliable Edge Environments</h1><p>创新性：</p>
+<ol>
+<li>边缘存储资源有限的情况下，利用不可靠的资源(为其他应用程序保留但尚未完全使用的资源或易受攻击的服务器上的资源)</li>
+<li>分布式的协作。</li>
+</ol>
+<p>解决思路：用擦除编码（erasure coding）的方式应对资源的不可靠性，增加缓存内容的可用性。<br>解决方法：离散优化问题（NP难）</p>
+<!-- **可用**：真实世界数据模拟 -->
+
+<h3 id="知识点"><a href="#知识点" class="headerlink" title="知识点"></a>知识点</h3><ol>
+<li>擦除编码（erasure coding）<br>擦除编码在存储系统中得到了广泛的应用，以达到更高的存储效率和可靠性。最大距离可分离码(Maximum distance separation code, MDS)，如里德所罗门码(Reed-solomon code, RS)[18]，是存储容量效率最高的一种编码，广泛应用于[14]、[15]、[19]、[20]等存储系统。Fountain码，如LT码和Raptor码[21]、[22]，也是一种具有无限码率和高效编解码算法的擦除码。在本文中，我们使用擦除码缓存流行文件。具体地说，我们将每个文件编码为几个包。</li>
+</ol>
+<h1 id="Enabling-QoE-Support-for-Interactive-Applications-over-Mobile-Edge-with-High-User-Mobility"><a href="#Enabling-QoE-Support-for-Interactive-Applications-over-Mobile-Edge-with-High-User-Mobility" class="headerlink" title="Enabling QoE Support for Interactive Applications over Mobile Edge with High User Mobility"></a>Enabling QoE Support for Interactive Applications over Mobile Edge with High User Mobility</h1><p>创新性：根据实时带宽波动迁移虚拟业务，同时控制业务数据吞吐量，在终端移动的情况下，为交互式业务提供低时延</p>
+<p>挑战：</p>
+<ol>
+<li>用户移动性，可能会增加服务主机和用户之间的传播距离和传输跳数，从而引入额外的通信延迟，降低交互服务。</li>
+</ol>
+<p>解决思路：</p>
+<p><strong>流游戏原型</strong><br><strong>真实数据</strong></p>
+<h3 id="知识点-1"><a href="#知识点-1" class="headerlink" title="知识点"></a>知识点</h3>]]></content>
+      <categories>
+        <category>Paper</category>
+      </categories>
+      <tags>
+        <tag>INFOCOM_2022</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Fund</title>
     <url>/Friday13/2023/02/02/fund/</url>
     <content><![CDATA[<h1 id="Before"><a href="#Before" class="headerlink" title="Before"></a>Before</h1><p>123123123</p>

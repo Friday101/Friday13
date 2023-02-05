@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>ChatGPT is not all you need. A State of the Art Review of large Generative AI models</title>
+    <url>/Friday13/2023/02/05/chatgpt-is-not-all-you-need-a-state-of-the-art-review-of-large-generative-ai-models/</url>
+    <content><![CDATA[<h1 id="生成式AI"><a href="#生成式AI" class="headerlink" title="生成式AI"></a>生成式AI</h1><p>传统AI扮演了专家系统的角色，通过分析、处理现有数据，做出判断和决策，主要解决分类或回归问题。<br>生成式AI则泛指可以生成新内容的AI，其将输入信息映射到潜在的高维空间，以及一个生成器模型，能够生成随机行为，在每次新试验中创建新内容，甚至从与输入相同的提示中，执行无监督、半监督或监督学习，可以将照片语言的潜在高维语义空间映射到文本、音频或视频的多媒体表示，我们就可以将文本等任何输入格式映射到视频等任何输出格式，这也使得生成式AI的数据量和架构是巨大的。</p>
+<h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><p><img src="/Friday13/2023/02/05/chatgpt-is-not-all-you-need-a-state-of-the-art-review-of-large-generative-ai-models/fig1.png" alt="生成式AI类别"></p>
+]]></content>
+      <categories>
+        <category>Paper</category>
+        <category>Journal</category>
+        <category>arxiv</category>
+      </categories>
+      <tags>
+        <tag>生成式AI</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2022INFOCOM</title>
     <url>/Friday13/2023/02/04/2022infocom/</url>
     <content><![CDATA[<h1 id="Distributed-Cooperative-Caching-in-Unreliable-Edge-Environments"><a href="#Distributed-Cooperative-Caching-in-Unreliable-Edge-Environments" class="headerlink" title="Distributed Cooperative Caching in Unreliable Edge Environments"></a><u>Distributed Cooperative Caching in Unreliable Edge Environments</u></h1><p>标签：缓存，分布式</p>
@@ -48,33 +63,53 @@
 <li>由于视频流的行为，网络的可用带宽与应用的块吞吐量不等价。</li>
 <li>区块大小与吞吐量之间存在很强的相关性，而以往的大部分工作都忽略了这一点，导致预测吞吐量不准确。事实上，这种相关性深受客户端播放器状态、chunk指数和移动客户端平台信号强度的影响，为了更准确地预测吞吐量，应该考虑所有这些因素。</li>
 </ol>
-<h1 id="On-Uploading-Behavior-and-Optimizations-of-a-Mobile-Live-Streaming-Service"><a href="#On-Uploading-Behavior-and-Optimizations-of-a-Mobile-Live-Streaming-Service" class="headerlink" title="On Uploading Behavior and Optimizations of a Mobile Live Streaming Service"></a><u>On Uploading Behavior and Optimizations of a Mobile Live Streaming Service</u></h1><p>标签：上传，直播数据集标签</p>
+<h1 id="On-Uploading-Behavior-and-Optimizations-of-a-Mobile-Live-Streaming-Service"><a href="#On-Uploading-Behavior-and-Optimizations-of-a-Mobile-Live-Streaming-Service" class="headerlink" title="On Uploading Behavior and Optimizations of a Mobile Live Streaming Service"></a><u><font color='green'>On Uploading Behavior and Optimizations of a Mobile Live Streaming Service</font></u></h1><p>标签：直播上传，直播数据集标签，直播用户行为，细读</p>
 <p>问题（动机）：大多数努力都集中在最后一英里(从服务器到观众)，而不是第一英里(从广播器到服务器)。由于MLS转播者通常是业余爱好者，与其他流媒体系统相比，这意味着最后一英里和第一英里通常都不可靠(例如3G&#x2F;4G)，从而对整体体验质量(QoE)[25]产生潜在影响</p>
 <p>解决思路：</p>
 <p>挑战：</p>
 <p>创新点：<br>自适应上传和边缘服务器预取</p>
+<p><strong>直播数据集</strong><br>主要数据字段涵盖四个类别:<br>1)用户特定的:匿名用户(广播ID，响应)，它唯一标识一个用户(广播，响应);匿名的客户端&#x2F;服务器IP、BGP-Prefix、ASN和省级地理位置。<br>2)特定会话:数据量，会话持续时间，方向(上传或下载)。<br>3)查看端QoE:各种QoE指标，包括启动延迟、缓冲事件数量、缓冲持续时间和重试次数。<br>4)运行环境:网络连接类型(如4G或WiFi)，平台类型(如Android或iOS)。</p>
 <h2 id="知识点-3"><a href="#知识点-3" class="headerlink" title="知识点"></a>知识点</h2><ol>
 <li>我们的主要发现包括大量浪费的上传、强烈的观看局部性和忠实观众的流量主导。具体来说，有33.3%的上传没有被观看，而且广播公司的观众倾向于局限在一小部分广播公司特定的网络区域。</li>
 <li>大量浪费的实时视频上传(占总上游流量的33.3%)。等待第一个观众的到来和在流媒体期间观众的离开是两个主要的贡献者;这两种浪费占上游总流量的30%。</li>
 <li>一个广播者所吸引的观看者往往来自少量网络区域。不同广播者的受众区域各不相同。向其他区域观看者提供内容时，启动时延会翻倍。</li>
 <li>经常观看同一家电视台的“忠实”观众数量很少，但产生了总下载视频数据的59%。这些忠实的观众不仅来得早，走得也晚。</li>
+<li>1&#x2F;4的广播者从未拥有过观众，但app在一直上传内容，浪费了带宽。</li>
 </ol>
-<p><u></u><br>标签：</p>
+<h1 id="Online-File-Caching-in-Latency-Sensitive-Systems-with-Delayed-Hits-and-Bypassing"><a href="#Online-File-Caching-in-Latency-Sensitive-Systems-with-Delayed-Hits-and-Bypassing" class="headerlink" title="Online File Caching in Latency-Sensitive Systems with Delayed Hits and Bypassing"></a><u>Online File Caching in Latency-Sensitive Systems with Delayed Hits and Bypassing</u></h1><p>标签：缓存，延迟命中</p>
+<p>问题：传统的缓存模型[1]、[7]、[8]假设所有丢失的文件在被访问之前都必须提取并存储在本地缓存中。事实上，由于物理距离较远，从远端数据中心取回丢失文件的延迟可能超过100ms[4]，[5]，而连续两个文件请求的平均间隔时间可低至1μs[6]，即每秒1m个文件请求。在从远程数据中心检索丢失的文件期间，不能立即为该文件的后续请求提供服务，因此不应简单地将其视为命中。这种情况也不同于简单的未命中，因为在将文件获取到本地服务器后，请求可以作为命中服务。因此我们称这种情况为延迟命中[6]。</p>
+<p>考虑缓存未命中且在下载该内容前的请求，这被称为延迟命中。</p>
 <p>解决思路：</p>
 <p>挑战：</p>
-<p>创新点</p>
-<h2 id="知识点-4"><a href="#知识点-4" class="headerlink" title="知识点"></a>知识点</h2><p><u></u><br>标签：</p>
-<p>解决思路：</p>
+<p>创新点：</p>
+<p><strong>谷歌用户轨迹</strong> C. Reiss, J. Wilkes, and J. Hellerstein, “Google cluster-usage trace,” in Technical Report, 2011<br><strong>雅虎用户轨迹</strong> B. F. Cooper, A. Silberstein, E. Tam, R. Ramakrishnan, and R. Sears,“Benchmarking cloud serving systems with YCSB,” in ACM SoCC 2010.</p>
+<h2 id="知识点-4"><a href="#知识点-4" class="headerlink" title="知识点"></a>知识点</h2><h1 id="Otus-A-Gaze-Model-based-Privacy-Control-Framework-for-Eye-Tracking-Applications"><a href="#Otus-A-Gaze-Model-based-Privacy-Control-Framework-for-Eye-Tracking-Applications" class="headerlink" title="Otus: A Gaze Model-based Privacy Control Framework for Eye Tracking Applications"></a><u>Otus: A Gaze Model-based Privacy Control Framework for Eye Tracking Applications</u></h1><p>标签：视野追踪，隐私保护</p>
+<p>解决思路：保护用户视野信息在上传过程中的数据安全</p>
 <p>挑战：</p>
 <p>创新点</p>
-<h2 id="知识点-5"><a href="#知识点-5" class="headerlink" title="知识点"></a>知识点</h2><p><u></u><br>标签：</p>
+<h2 id="知识点-5"><a href="#知识点-5" class="headerlink" title="知识点"></a>知识点</h2><h1 id="VR-Viewport-Pose-Model-for-Quantifying-and-Exploiting-Frame-Correlations"><a href="#VR-Viewport-Pose-Model-for-Quantifying-and-Exploiting-Frame-Correlations" class="headerlink" title="VR Viewport Pose Model for Quantifying and Exploiting Frame Correlations"></a><u><font color='green'>VR Viewport Pose Model for Quantifying and Exploiting Frame Correlations</font></u></h1><p>标签：VR，视野，用户行为模型，姿态模型，帧复用</p>
+<p>问题：VR帧具有较高冗余度</p>
+<p>解决思路：利用参考帧减少资源消耗，来生成其他新帧。</p>
+<p>挑战：</p>
+<p>创新点：</p>
+<ol>
+<li>VR视口姿态的统计模型</li>
+<li>推导了不同VR帧之间像素可见相似性的表达式。关联了新帧和参考帧之间的视场错位(FoVs)和VR内容到视口距离差异</li>
+<li>自适应地将虚拟现实帧内容划分为背景和前景，在重用背景的同时，为新帧渲染前景</li>
+</ol>
+<h2 id="知识点-6"><a href="#知识点-6" class="headerlink" title="知识点"></a>知识点</h2><ol>
+<li>VR画面与用户动作紧密耦合，每一帧都是针对特定视角而生成的</li>
+</ol>
+<p><u><font color='green'>VSiM: Improving QoE Fairness for Video Streaming in Mobile Environments</font></u><br>标签：公平性，多人媒体服务，移动性，服务端优化，细看</p>
+<p>问题：当多个客户端同时竞争共享瓶颈链路时，网络条件和用户的高移动性会显著影响多个用户的体验。</p>
 <p>解决思路：</p>
 <p>挑战：</p>
+<ol>
+<li>如何分析移动性影响，并使用该分析来最大化移动网络中客户的QoE公平性?<br>具有相同带宽的客户端在移动视频流应用程序中可能会体验到不同的观看体验，因为客户端的移动配置文件(例如，速度、方向和加速度)不同。例如，快速移动的客户端可能会遭受更频繁的[11]，[12]的切换，这将导致重新缓冲并降低客户端的QoE。</li>
+<li>如何满足由于移动性而对缓冲区敏感的客户机的缓冲区需求?<br>由于移动，一段时间后，一些客户端可能对播放缓冲区大小[14]更敏感。此外，由于在一个BS中停留时间较短，客户端可能无法接收到具有所请求比特率的完整块。</li>
+</ol>
 <p>创新点</p>
-<h2 id="知识点-6"><a href="#知识点-6" class="headerlink" title="知识点"></a>知识点</h2><p><font color='green'></font><br><u></u><br>标签：</p>
-<p>解决思路：</p>
-<p>挑战：</p>
-<p>创新点</p>
+<p><strong>数据集</strong><br>S. Lederer et al., “Dynamic adaptive streaming over http dataset,” in Proceedings of the 3rd multimedia systems conference, pp. 89–94, 2012</p>
 <h2 id="知识点-7"><a href="#知识点-7" class="headerlink" title="知识点"></a>知识点</h2><p><u></u><br>标签：</p>
 <p>解决思路：</p>
 <p>挑战：</p>
@@ -83,6 +118,7 @@
       <categories>
         <category>Paper</category>
         <category>Conference</category>
+        <category>INFOCOM2022</category>
       </categories>
       <tags>
         <tag>论文集</tag>

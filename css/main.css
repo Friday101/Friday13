@@ -2594,7 +2594,6 @@ mjx-container[display='true'] + br {
   color: var(--text-color);
   margin-top: 16px;
   max-height: calc(100vh - 32px);
-  visibility: hidden;
 }
 .site-state-item {
   padding: 0 10px;

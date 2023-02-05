@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>ChatGPT is not all you need. A State of the Art Review of large Generative AI models</title>
-    <url>/Friday13/2023/02/05/chatgpt-is-not-all-you-need-a-state-of-the-art-review-of-large-generative-ai-models/</url>
-    <content><![CDATA[<h1 id="生成式AI"><a href="#生成式AI" class="headerlink" title="生成式AI"></a>生成式AI</h1><p>传统AI扮演了专家系统的角色，通过分析、处理现有数据，做出判断和决策，主要解决分类或回归问题。<br>生成式AI则泛指可以生成新内容的AI，其将输入信息映射到潜在的高维空间，以及一个生成器模型，能够生成随机行为，在每次新试验中创建新内容，甚至从与输入相同的提示中，执行无监督、半监督或监督学习，可以将照片语言的潜在高维语义空间映射到文本、音频或视频的多媒体表示，我们就可以将文本等任何输入格式映射到视频等任何输出格式，这也使得生成式AI的数据量和架构是巨大的。</p>
-<h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><p><img src="/Friday13/2023/02/05/chatgpt-is-not-all-you-need-a-state-of-the-art-review-of-large-generative-ai-models/fig1.png" alt="生成式AI类别"></p>
-]]></content>
-      <categories>
-        <category>Paper</category>
-        <category>Journal</category>
-        <category>arxiv</category>
-      </categories>
-      <tags>
-        <tag>生成式AI</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2022INFOCOM</title>
     <url>/Friday13/2023/02/04/2022infocom/</url>
     <content><![CDATA[<h1 id="Distributed-Cooperative-Caching-in-Unreliable-Edge-Environments"><a href="#Distributed-Cooperative-Caching-in-Unreliable-Edge-Environments" class="headerlink" title="Distributed Cooperative Caching in Unreliable Edge Environments"></a><u>Distributed Cooperative Caching in Unreliable Edge Environments</u></h1><p>标签：缓存，分布式</p>
@@ -123,6 +108,21 @@
       <tags>
         <tag>论文集</tag>
         <tag>泛读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ChatGPT is not all you need. A State of the Art Review of large Generative AI models</title>
+    <url>/Friday13/2023/02/05/chatgpt-is-not-all-you-need-a-state-of-the-art-review-of-large-generative-ai-models/</url>
+    <content><![CDATA[<h1 id="生成式AI"><a href="#生成式AI" class="headerlink" title="生成式AI"></a>生成式AI</h1><p>传统AI扮演了专家系统的角色，通过分析、处理现有数据，做出判断和决策，主要解决分类或回归问题。<br>生成式AI则泛指可以生成新内容的AI，其将输入信息映射到潜在的高维空间，以及一个生成器模型，能够生成随机行为，在每次新试验中创建新内容，甚至从与输入相同的提示中，执行无监督、半监督或监督学习，可以将照片语言的潜在高维语义空间映射到文本、音频或视频的多媒体表示，我们就可以将文本等任何输入格式映射到视频等任何输出格式，这也使得生成式AI的数据量和架构是巨大的。</p>
+<h1 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h1><p><img src="/Friday13/2023/02/05/chatgpt-is-not-all-you-need-a-state-of-the-art-review-of-large-generative-ai-models/fig1.png" alt="生成式AI类别"></p>
+]]></content>
+      <categories>
+        <category>Paper</category>
+        <category>Journal</category>
+        <category>arxiv</category>
+      </categories>
+      <tags>
+        <tag>生成式AI</tag>
       </tags>
   </entry>
 </search>
